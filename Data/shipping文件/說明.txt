@@ -1,0 +1,19 @@
+SQL開啟SA登入，密碼使用123456，localhost資料庫名稱，才可使用API
+
+
+這個是寫API教學
+https://sunnyday0932.github.io/2020/dotnet-core-webapi%E5%AF%A6%E4%BD%9C%E4%BD%BF%E7%94%A8dapper-1/
+
+
+如果要使用命令提示字元的話
+要先cd到該位置，在使用dotnet run
+
+PM> cd .\ShoppingCart_API
+PM> dotnet run
+
+
+
+API
+1.增刪修查（與下面關聯）Shopping
+2.登陸會員（與上面關聯）
+3.傳送聯絡我 CustorFeedBack
