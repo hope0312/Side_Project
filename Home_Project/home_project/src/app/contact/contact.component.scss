@@ -1,0 +1,47 @@
+#floatingTextarea2{
+  resize:none;
+  width: 60vw;
+  height: 60vh;
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+}
+.e_mail{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0rem;
+}
+.remarks{
+  display: flex;
+  justify-content: center;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+label{
+  text-align: center;
+}
+.explain{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#warning{
+  display: none;
+}
+
+#gratitudes{
+  text-align: center;
+  display: none;
+}
+
+.message{
+  display: none;
+}

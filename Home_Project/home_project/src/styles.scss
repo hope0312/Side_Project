@@ -1,0 +1,49 @@
+.facebook:hover{
+  filter: contrast(200%); //增加對比度
+  filter: brightness(75%); //亮度調整
+}
+
+.instagram:hover{
+  filter: contrast(200%); //增加對比度
+  filter: brightness(75%); //亮度調整
+}
+
+.github:hover{
+  filter: contrast(200%); //增加對比度
+  filter: brightness(75%); //亮度調整
+}
+
+//取得尾巴創作者
+.footer_blank{
+  display: flex; //flex
+  height: 10vh;
+  align-items: center; //垂宜置中
+  justify-content: center; //水平置中
+  font-family:DFKai-sb; //微軟正黑體
+  font-size: 1.3em //字型大小
+}
+
+//取尾巴圖片
+.img_hover{
+  text-align: center; //水平置中
+}
+
+
+//使用calc()計算減少內容區塊高度，達到置底效果。
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: calc(100% - 50px); /*減去footer高度*/
+}
+.footer {
+  height: 50px; /*設定footer本身高度*/
+}
+
+//取得尾巴，並給予顏色
+.footer_color{
+  height: 20vh;
+  background-color: #C4CDAF;
+}
+
